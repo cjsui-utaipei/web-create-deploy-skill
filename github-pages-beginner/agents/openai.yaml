@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Pages 新手發布"
+  short_description: "幫新手把 HTML 網站發布到 GitHub Pages，並更新相同網址"
+  default_prompt: "使用 $github-pages-beginner 幫我發布這個網站。"

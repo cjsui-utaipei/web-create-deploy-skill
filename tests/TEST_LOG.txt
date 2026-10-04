@@ -1,0 +1,33 @@
+test_bom (__main__.Publish.test_bom) ... ok
+test_build_fail (__main__.Publish.test_build_fail) ... ok
+test_chinese_name (__main__.Publish.test_chinese_name) ... ok
+test_collision (__main__.Publish.test_collision) ... ok
+test_create_409 (__main__.Publish.test_create_409) ... ok
+test_create_422 (__main__.Publish.test_create_422) ... ok
+test_crlf (__main__.Publish.test_crlf) ... ok
+test_diverged (__main__.Publish.test_diverged) ... ok
+test_dry (__main__.Publish.test_dry) ... ok
+test_empty (__main__.Publish.test_empty) ... ok
+test_first_push_retry (__main__.Publish.test_first_push_retry) ... ok
+test_history (__main__.Publish.test_history) ... ok
+test_ignore (__main__.Publish.test_ignore) ... ok
+test_invalid (__main__.Publish.test_invalid) ... ok
+test_large (__main__.Publish.test_large) ... ok
+test_missing (__main__.Publish.test_missing) ... ok
+test_missing_entry (__main__.Publish.test_missing_entry) ... ok
+test_missing_git (__main__.Publish.test_missing_git) ... ok
+test_network (__main__.Publish.test_network) ... ok
+test_permission (__main__.Publish.test_permission) ... ok
+test_publish_update_unchanged (__main__.Publish.test_publish_update_unchanged) ... ok
+test_rate (__main__.Publish.test_rate) ... ok
+test_secret_copy (__main__.Publish.test_secret_copy) ... ok
+test_stale (__main__.Publish.test_stale) ... ok
+test_symlink (__main__.Publish.test_symlink) ... ok
+test_unicode (__main__.Publish.test_unicode) ... ok
+test_unrelated_remote (__main__.Publish.test_unrelated_remote) ... ok
+test_wrong_source (__main__.Publish.test_wrong_source) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 24.924s
+
+OK

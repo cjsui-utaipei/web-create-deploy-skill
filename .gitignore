@@ -1,0 +1,7 @@
+github_pat*
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.DS_Store
