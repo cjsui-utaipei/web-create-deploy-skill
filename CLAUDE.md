@@ -7,3 +7,5 @@
 - 教材內容檢查：python tests/check_material.py。保留既有 14 張圖片；Windows 真實畫面新增 8 張。Codex 視窗截圖仍待人工補上，不以模擬畫面代替。
 - 修改 scripts 後同步內嵌教學的 Skill ZIP；修改教材後更新 README 與測試報告。
 - 分享教材入口只有 docs/新手完整圖解教學.html，保留真實 GitHub 截圖。歷史 v1.x 的同層 PAT 做法不適用新版。
+
+- 教材 2.0.2：主 HTML 新增 #system 課前系統需求、ChatGPT App 與作業系統更新；官方資料查核日期 2026-10-04。不混淆 ChatGPT Classic 與新版 Codex 功能，Windows 課程以 Windows 11 為準。

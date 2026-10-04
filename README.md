@@ -4,6 +4,8 @@
 
 ## 學員從這裡開始
 
+先完成[桌面版系統需求與更新](docs/課前準備-ChatGPT桌面版與系統更新.md)，再依下列步驟安裝 Skill。完整圖解 HTML 開頭已整合相同說明。
+
 1. 在 Codex 開啟可讀寫本機資料夾的工作環境。
 2. 複製 [安裝提示詞](INSTALL-PROMPT.md) 的整段文字貼給 Codex，讓它安裝 Skill 並建立範例工作區。
 3. 跟著 [完整圖解教材](docs/新手完整圖解教學.html) 建立 GitHub PAT。可下載 HTML 後用瀏覽器開啟，圖片均已內嵌。
@@ -39,5 +41,5 @@ PAT 已在 web-create-deploy/github_pat.txt，請由腳本讀取，不顯示內�
 - [測試報告](TEST_REPORT.md)
 - [維護說明](CLAUDE.md)
 - Skill 版本：2.0.0。starter 中刻意不含 github_pat.txt，學員自行建立。
-- 教材整合版：2.0.1；共 22 張內嵌圖片，新增 8 張 Windows 真實畫面。Codex 安裝／叫用視窗仍待人工補圖，詳見測試報告。
+- 教材整合版：2.0.2；共 22 張內嵌圖片，新增 8 張 Windows 真實畫面。Codex 安裝／叫用視窗仍待人工補圖，詳見測試報告。
 - 公開程式碼供課堂安裝，安裝時不需要 PAT；PAT 只用於發布學員自己的網站。

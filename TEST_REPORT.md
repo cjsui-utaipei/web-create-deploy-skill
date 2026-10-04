@@ -45,3 +45,7 @@ Windows PowerShell 5.1：僅靜態檢查，實機測試及截圖待 Ron 在 Wind
 
 修正後 B 複審 PASS；獨立執行中文、換行與發布更新測試通過。
 實際從公開 GitHub repo 以 Codex skill-installer 下載至隔離目錄成功，安裝後每個 Skill 檔案與發布版本相同。教材 14 張有效圖片載入、無水平溢出，兩個內嵌 ZIP 完整且無 PAT 檔。Skill 的真實 Pages 發布仍未執行，未將程式碼 repo 的 push 誤列為 Pages 測試。
+
+## 2026-10-04 教材 2.0.2
+
+新增官方系統需求及更新步驟，沒有修改發布腳本。保留 22 張圖片及兩個安裝 ZIP；執行 check_material.py --baseline f90b52d 通過。新增章節檢查 #system 錨點、來源連結及兩平台流程。Windows 實機證據沿用 2.0.1，不宣稱重新執行 Windows 測試。
