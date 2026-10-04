@@ -1,6 +1,6 @@
 # Web Create Deploy：Codex 新手網站發布
 
-每個 web app 一個 GitHub repository，共用放在父資料夾的 PAT。Skill 支援靜態 HTML、CSS、JavaScript；macOS 腳本已測試，Windows 11 原生 PowerShell 實機測試待補。
+每個 web app 一個 GitHub repository，共用放在父資料夾的 PAT。Skill 支援靜態 HTML、CSS、JavaScript；保留 macOS 34 項模擬測試結果，Windows 11／PowerShell 5.1 已完成 20 項隔離測試與兩站真實發布、同網址更新驗證。
 
 ## 學員從這裡開始
 
@@ -39,4 +39,5 @@ PAT 已在 web-create-deploy/github_pat.txt，請由腳本讀取，不顯示內�
 - [測試報告](TEST_REPORT.md)
 - [維護說明](CLAUDE.md)
 - Skill 版本：2.0.0。starter 中刻意不含 github_pat.txt，學員自行建立。
+- 教材整合版：2.0.1；共 22 張內嵌圖片，新增 8 張 Windows 真實畫面。Codex 安裝／叫用視窗仍待人工補圖，詳見測試報告。
 - 公開程式碼供課堂安裝，安裝時不需要 PAT；PAT 只用於發布學員自己的網站。

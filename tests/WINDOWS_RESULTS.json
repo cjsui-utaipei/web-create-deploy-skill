@@ -1,0 +1,162 @@
+﻿[
+    {
+        "test":  "dry-unicode-space",
+        "status":  "PASS",
+        "expected":  "OK",
+        "actual":  "OK",
+        "exit":  0,
+        "unchanged":  true
+    },
+    {
+        "test":  "bom-crlf",
+        "status":  "PASS",
+        "expected":  "OK",
+        "actual":  "OK",
+        "exit":  0,
+        "unchanged":  true
+    },
+    {
+        "test":  "workspace-root",
+        "status":  "PASS",
+        "expected":  "WORKSPACE_LAYOUT",
+        "actual":  "WORKSPACE_LAYOUT",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "token-inside-site",
+        "status":  "PASS",
+        "expected":  "TOKEN_INSIDE_SITE",
+        "actual":  "TOKEN_INSIDE_SITE",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "missing-token",
+        "status":  "PASS",
+        "expected":  "TOKEN_MISSING",
+        "actual":  "TOKEN_MISSING",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "empty-token",
+        "status":  "PASS",
+        "expected":  "TOKEN_EMPTY",
+        "actual":  "TOKEN_EMPTY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "invalid-token-syntax",
+        "status":  "PASS",
+        "expected":  "TOKEN_INVALID",
+        "actual":  "TOKEN_INVALID",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "missing-index",
+        "status":  "PASS",
+        "expected":  "SITE_ENTRY_MISSING",
+        "actual":  "SITE_ENTRY_MISSING",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "staged-changes",
+        "status":  "PASS",
+        "expected":  "STAGED_CHANGES",
+        "actual":  "STAGED_CHANGES",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "history-env",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "history-secretpem",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "history-secretkey",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "network-error-mock",
+        "status":  "PASS",
+        "expected":  "NETWORK_ERROR",
+        "actual":  "NETWORK_ERROR",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "invalid-token-http-mock",
+        "status":  "PASS",
+        "expected":  "TOKEN_INVALID",
+        "actual":  "TOKEN_INVALID",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "missing-git-mock",
+        "status":  "PASS",
+        "expected":  "GIT_MISSING",
+        "actual":  "GIT_MISSING",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "unmanaged-remote",
+        "status":  "PASS",
+        "expected":  "UNMANAGED_REMOTE",
+        "actual":  "UNMANAGED_REMOTE",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "newline-history-env",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "newline-history-secretpem",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "newline-history-secretkey",
+        "status":  "PASS",
+        "expected":  "SECRET_IN_HISTORY",
+        "actual":  "SECRET_IN_HISTORY",
+        "exit":  1,
+        "unchanged":  true
+    },
+    {
+        "test":  "remote-diverged-public-read-only",
+        "status":  "PASS",
+        "expected":  "REMOTE_DIVERGED",
+        "actual":  "REMOTE_DIVERGED",
+        "exit":  1,
+        "unchanged":  true
+    }
+]

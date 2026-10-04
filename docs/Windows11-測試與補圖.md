@@ -1,6 +1,6 @@
 # Windows 11 接續測試與講義補圖
 
-目前只有 macOS 真實畫面；此檔是待執行測試，不代表 Windows 已通過。
+2026-10-04 已完成 Windows 11／PowerShell 5.1 實測：20 項隔離測試通過，兩站真實發布與第一站同網址更新通過。整合講義已補 8 張 Windows 真實截圖；Codex 安裝／叫用視窗仍待人工補圖。詳細證據、模擬範圍與未執行項目以 TEST_REPORT.md 為準。
 
 ## 在 Windows Codex 貼上
 
@@ -21,15 +21,17 @@
 
 | 測試 | 預期 | 實測 |
 |---|---|---|
-| GitHub 網址安裝 | SKILL.md、scripts、references、assets 完整 | 待測 |
-| UTF-8 PAT | 支援記事本換行及 BOM | 待測 |
-| 指定根目錄發布 | WORKSPACE_LAYOUT，沒有建立 repo | 待測 |
-| PAT 放網站內 | TOKEN_INSIDE_SITE，沒有上傳 | 待測 |
-| 第一次發布 oooxxx | 網址可開啟，repo 無 PAT、AGENTS.md、另一網站 | 待測 |
-| 更新 oooxxx | 網址不變，內容已更新 | 待測 |
-| 發布 xxxxsss | 另一 repo 與網址 | 待測 |
-| 缺 Git | 引導安裝 Git for Windows | 待測 |
-| token 無效 | TOKEN_INVALID，不顯示憑證 | 待測 |
-| 網路失敗 | 可安全重試，不 force push | 待測 |
+| GitHub 網址安裝 | SKILL.md、scripts、references、assets 完整 | PASS，10 檔一致 |
+| UTF-8 PAT | 支援換行及 BOM | PASS，隔離檔案編碼案例；未操作記事本 |
+| 指定根目錄發布 | WORKSPACE_LAYOUT，沒有建立 repo | PASS |
+| PAT 放網站內 | TOKEN_INSIDE_SITE，沒有上傳 | PASS，假 token |
+| 第一次發布 oooxxx | 網址可開啟，repo 無 PAT、AGENTS.md、另一網站 | PASS，真實 built 與首頁比對 |
+| 更新 oooxxx | 網址不變，內容已更新 | PASS，真實發布 |
+| 發布 xxxxsss | 另一 repo 與網址 | PASS，真實發布 |
+| 缺 Git | GIT_MISSING | PASS，模擬；未移除已安裝 Git |
+| token 無效 | TOKEN_INVALID，不顯示憑證 | PASS，格式案例與 HTTP 401 模擬 |
+| 網路失敗 | NETWORK_ERROR，不修改檔案 | PASS，模擬 |
+| 中文／換行秘密路徑 | .env、.pem、.key 各自阻擋 | PASS，6 個獨立歷史案例 |
+| staged changes／非管理 remote／遠端分歧 | 安全停止 | PASS，詳見測試報告的模擬範圍 |
 
 更新 TEST_REPORT.md 時區分 mock、靜態檢查與真實 Windows 測試，並更新 README.md 的限制。

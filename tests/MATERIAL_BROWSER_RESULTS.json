@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "platform": "Windows 11, Codex In-app Browser",
+  "images_loaded": 22,
+  "zoom_links_opened": 21,
+  "zoom_links_passed": 21,
+  "navigation_anchors_valid": true,
+  "desktop": {"innerWidth": 1280, "scrollWidth": 1265, "horizontal_overflow": false},
+  "narrow": {"innerWidth": 390, "scrollWidth": 375, "horizontal_overflow": false},
+  "download_buttons_clicked": 2,
+  "downloaded_zips_match_embedded_bytes": true,
+  "download_event_wait": "Tool timeout; actual downloaded files verified independently",
+  "missing_screenshot": "Codex workspace and Skill installation/invocation window"
+}

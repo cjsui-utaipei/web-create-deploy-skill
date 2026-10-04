@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Taipei",
+  "original_skill_commit": "f90b52db776022f548a64751b6943437dc09e394",
+  "first_publish_commit": "914a9be96210a1138bd231b4da53b07b96d228a6",
+  "same_url_after_update": true,
+  "publisher": "Windows PowerShell 5.1, installed publish.ps1, real PAT read internally",
+  "deployments": [
+    {
+      "repository_url": "https://github.com/cjsui-utaipei/web-app-oooxxx",
+      "pages_url": "https://cjsui-utaipei.github.io/web-app-oooxxx/",
+      "commit": "8b065eb4d0ec00d0f87d50c984f0f8c62d6a0f51",
+      "pages_status": "built",
+      "public_homepage_sha256": "af418db1ac3c2745e1a13d84bef6a041b2ae7bdcc5ab62cc6480f4011605aa9f",
+      "public_matches_local": true,
+      "remote_sha_matches": true,
+      "files": [
+        ".gitignore",
+        ".nojekyll",
+        "index.html"
+      ]
+    },
+    {
+      "repository_url": "https://github.com/cjsui-utaipei/web-app-xxxxsss",
+      "pages_url": "https://cjsui-utaipei.github.io/web-app-xxxxsss/",
+      "commit": "93fc5ce6292f319225b1ebbd3b872176f7975fcd",
+      "pages_status": "built",
+      "public_homepage_sha256": "c13c6cc044c4dda7a95004e40c4e87b1446d19af7bebb177cc1516c763cd9e45",
+      "public_matches_local": true,
+      "remote_sha_matches": true,
+      "files": [
+        ".gitignore",
+        ".nojekyll",
+        "index.html"
+      ]
+    }
+  ]
+}
